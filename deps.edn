@@ -3,7 +3,8 @@
         org.clojure/clojurescript {:mvn/version "1.9.946"}
 
         ;; this with `clj` but works with lein
-        ;; reagent {:mvn/version "0.6.0"}
+        reagent {:mvn/version "0.6.0"}
 
-         ;; this works
-        reagent {:mvn/version "0.6.0" :exclusions [org.clojure/clojurescript]}}}
+        ;; this works
+        ;; reagent {:mvn/version "0.6.0" :exclusions [org.clojure/clojurescript]}
+        }}
